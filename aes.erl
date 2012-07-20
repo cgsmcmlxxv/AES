@@ -4,7 +4,7 @@
 %% Description: Advanced Encryption Standard
 %% Author: CGSMCMLXXV <cgsmcmlxxv@gmail.com>
 %% Copyright: 2012 CGSMCMLXXV (for Erlang implementation)
-%% License: GNU GPL3 (if something else needed, drop an e-mail)
+%% License: GNU GPL3 (if something else is needed, drop an e-mail)
 %% ===================================================================
 
 
