@@ -21,9 +21,9 @@ encrypt/3 :
 
 decrypt/3 :
 
-- decrypts CIPHER using PASSWORD in NBITS
----> CIPHER: cipher text which needs to be decrypted
----> PASSWORD: required password for decryptioon
+- decrypts CIPHER using PASSWORD in NBITS<br/>
+---> CIPHER: cipher text which needs to be decrypted<br/>
+---> PASSWORD: required password for decryptioon<br/>
 ---> NBITS: number of bits in the key length (128, 192 or 256)<br/>
 - accepts CIPHER, PASSWORD and NBITS (in this order)<br/>
 - returns plain text (in latin1)
