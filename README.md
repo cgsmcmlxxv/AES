@@ -1,9 +1,11 @@
 AES
 ===
 
-Advanced Encryption Standard
+Advanced Encryption Standard (NIST FIPS-197)
 
 Matches bit per bit with the code from http://www.movable-type.co.uk/scripts/aes.html.
+
+The license can be found at the top of the file.
 
 EXPORTS
 =======
