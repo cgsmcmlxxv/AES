@@ -1,3 +1,13 @@
+%% ===================================================================
+%% Project: Erlang AES
+%% File: aes.erl
+%% Description: Advanced Encryption Standard
+%% Author: CGSMCMLXXV <cgsmcmlxxv@gmail.com>
+%% Copyright: 2012 CGSMCMLXXV (for Erlang implementation)
+%% License: GNU GPL3 (if aomething else needed, drop an e-mail)
+%% ===================================================================
+
+
 -module(aes).
 
 -define(S_BOX,[16#63,16#7c,16#77,16#7b,16#f2,16#6b,16#6f,16#c5,16#30,16#01,16#67,16#2b,16#fe,16#d7,16#ab,16#76,
@@ -207,6 +217,3 @@ decrypt(CipherText,Password,NBits) when ((NBits =:= 128) or (NBits =:= 192) or (
                    end,lists:seq(0,NBlocks-1)),
 
     unicode:characters_to_list(lists:flatten(PT),latin1).
-
-
-
